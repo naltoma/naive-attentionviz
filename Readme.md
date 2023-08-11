@@ -36,9 +36,9 @@ BERTでQ, K, Vの重みベクトル取得する部分は十分うまくいった
 - 重み付け相関が高くなる定数a,cを見つける部分は想像以上に楽。かなり適当な数値を決め打ちで設定してもベクトル正規化すること自体は問題なさそうなレベル。
 - 今回の範囲では「アテンションが高くなるペアがより近くなる」ようなケースはほとんど観察できなかった。一部はそれっぽくなってるケースもありました。
     - 結果の例
-        - <a href="./result_layer0.html">layer 0</a> => head 12 では「クエリ:brown => キー:##bara」が近くなってる。
-        - <a href="./result_layer1.html">layer 1</a>
-        - <a href="./result_layer2.html">layer 2</a>
+        - <a href="http://htmlpreview.github.io/?https://github.com/naltoma/naive-attentionviz/blob/main/result_layer0.html">layer 0</a> => head 12 では「クエリ:brown => キー:##bara」が近くなってる。
+        - <a href="http://htmlpreview.github.io/?https://github.com/naltoma/naive-attentionviz/blob/main/result_layer1.html">layer 1</a>
+        - <a href="http://htmlpreview.github.io/?https://github.com/naltoma/naive-attentionviz/blob/main/result_layer2.html">layer 2</a>
 
 ## やり残し
 - 全レイヤーで統合した正規化。
